@@ -1,0 +1,41 @@
+# Dependências
+/node_modules
+
+# Build Next.js
+/.next
+/out
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Cache
+.cache
+.next/cache
+
+# Coverage / testes
+coverage
+
+# Turbopack (Next 13+)
+.turbo
+
+# TypeScript
+*.tsbuildinfo
